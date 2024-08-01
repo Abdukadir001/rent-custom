@@ -1,0 +1,160 @@
+header{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    @media (max-width: 450px) {
+        flex-direction: column;
+      }
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.04);
+    background: #fff
+}
+span{ color: #FFCA33; }
+
+.container1{
+    max-width: 1024px;
+margin: 0 auto;
+padding: 50px;
+display: flex;
+flex-wrap: wrap;
+}
+.banner-title{
+    font-size: 52px;
+}
+.banner-btn{
+    color: white;
+    border: 2px solid #FFCA33;
+    background-color:#FFCA33;
+    border-radius: 2px;
+    width: 258px;
+    height: 30px;
+
+}
+h2{
+    color: #041A3F;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.spider{
+    border:2px solid white ;
+    border-radius: 10px;
+    width: 300px;
+ background-color:whitesmoke;
+    text-align: center;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.04);
+background: #fafafa;
+}
+.pider-img{
+    width: 290px;
+    height: 290px;
+
+
+
+}
+.spider-btn{
+    color: white;
+    border: 2px solid #FFCA33;
+    background-color:#FFCA33;
+    border-radius: 2px;
+    width: 258px;
+    height: 30px;
+}
+body{
+    background-image: url(font.png);
+}
+.bat{
+    border:2px solid white ;
+    border-radius: 10px;
+    width: 300px;
+ background-color:whitesmoke;
+    text-align: center;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.04);
+background: #fafafa;
+
+
+}
+.bat-img{
+    width: 290px;
+    height: 290px;
+}
+.bat-btn{
+    color: white;
+    border: 2px solid #FFCA33;
+    background-color:#FFCA33;
+    border-radius: 2px;
+    width: 258px;
+    height: 30px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+
+    @media (max-width: 850px) {
+      flex-direction: column;
+    }
+ 
+}
+
+.title-card{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -30px;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    width: 100%;    
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.p2{
+    color: red;
+}
+.episopdes{
+    margin-bottom: 128px;
+}
+
+
+
+
+.banner-img {
+    @media (max-width: 550px) {
+        width: 100%;
+    }
+
+}
